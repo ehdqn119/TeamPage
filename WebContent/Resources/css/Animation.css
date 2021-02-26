@@ -1,0 +1,56 @@
+.banner_text ,.bs1_btn_group {
+	animation-name: fadeinUp 2s;
+    -moz-animation: fadeinUp 2s; /* Firefox */
+    -webkit-animation: fadeinUp 2s; /* Safari and Chrome */
+    -o-animation: fadeinUp 2s; /* Opera */
+}
+
+
+
+.team_section2 > div {
+    animation-name: fadeinUp 2s;
+    -moz-animation: fadeinUp 2s; /* Firefox */
+    -webkit-animation: fadeinUp 2s; /* Safari and Chrome */
+    -o-animation: fadeinUp 2s; /* Opera */
+}
+
+.project_section1 div {
+    animation-name: fadeinUp 2s;
+    -moz-animation: fadeinUp 2s; /* Firefox */
+    -webkit-animation: fadeinUp 2s; /* Safari and Chrome */
+    -o-animation: fadeinUp 2s; /* Opera */
+}
+
+.project_section2 div {
+     animation-name: fadeinUp 2s;
+    -moz-animation: fadeinUp 2s; /* Firefox */
+    -webkit-animation: fadeinUp 2s; /* Safari and Chrome */
+    -o-animation: fadeinUp 2s; /* Opera */
+}
+
+.team_section1 div {
+    animation-name: fadeinUp 2s;
+    -moz-animation: fadeinUp 2s; /* Firefox */
+    -webkit-animation: fadeinUp 2s; /* Safari and Chrome */
+    -o-animation: fadeinUp 2s; /* Opera */
+}
+
+
+
+@keyframes fadeinUp {
+    
+    0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+	}
+
+	100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+	}
+    
+}
